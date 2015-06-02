@@ -1,3 +1,4 @@
+# C4.5 Decision Tree Implementation
 1. Team Name: Team 5 CMU Supernova
 2. Team Members: Xue Lin, Xiaodong Zhou, Jiayi Zhu, Lei Wang
 3. Project Description: Implementation of C4.5 Decision Tree
