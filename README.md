@@ -9,3 +9,4 @@ THE DIRECTORY OF the jar file ON YOUR COMPUTER
 For example: java -jar C45Team5.jar /Users/Charlotte/Desktop/Data/trainProdSelection.arff
 (3) Then, it will show guide lines of what to do next.
 6. References material: Mitchell, T., Machine Learning.
+7. Youtube link: https://www.youtube.com/watch?v=aOF4U_E4B7Q&feature=youtu.be
