@@ -1,0 +1,53 @@
+@relation food
+
+@attribute Service_type {Fund,Loan,CD,Bank_Account,Mortgage}
+@attribute Customer {Student,Business,Other,Doctor,Professional}
+@attribute Monthly_fee real
+@attribute Advertisement_budget real
+@attribute Size {Small,Large,Medium}
+@attribute Promotion {Web&Email,Full,Web,None}
+@attribute Interest_rate real
+@attribute Period real
+@attribute Label real
+
+@data
+Fund,Student,0.75,0.93,Small,Web&Email,1,5
+Fund,Business,1.1,0.93,Small,Web&Email,1,65
+Loan,Other,2.17,3.07,Small,Full,1,89
+Mortgage,Business,1.2,1.17,Small,Web,4,10
+CD,Business,1.2,1.09,Small,Web,0,26
+Bank_Account,Professional,2.02,0.94,Large,None,3,15
+Bank_Account,Doctor,4.11,1.07,Large,Web,1,20
+Bank_Account,Student,4.08,0.98,Large,None,0,15
+Loan,Business,14.17,4.83,Medium,Web,3,84
+Loan,Professional,11.12,5.19,Large,Web,4,103
+Mortgage,Professional,10.68,6.01,Large,Web,2,85
+Mortgage,Doctor,12.99,5.21,Medium,Web,3,87
+Mortgage,Business,13.65,3.71,Large,None,1,87
+CD,Business,5.63,7.15,Medium,Web,1,88
+CD,Business,6.46,3.69,Large,Web,1,98
+Fund,Business,2.19,0.43,Small,Web,0,66
+Fund,Business,2.45,0.45,Small,Web,0,74
+Fund,Student,2.28,0.79,Small,Full,0,57
+Fund,Other,1.97,0.82,Small,None,2,67
+CD,Business,1.71,0.85,Small,Full,0,71
+CD,Business,2.79,0.76,Small,Full,0,69
+Loan,Professional,7.97,0.83,Large,Full,2,107
+Loan,Professional,8.99,1.2,Large,Full,1,104
+Loan,Business,7.4,1.3,Large,Full,1,115
+Loan,Other,7.36,1.26,Large,Web&Email,1,98
+Loan,Student,8.66,0.73,Medium,Web&Email,0,96
+Mortgage,Other,6.57,0.81,Medium,Web&Email,0,88
+Mortgage,Student,6.74,0.68,Medium,Web&Email,1,70
+Mortgage,Other,5.49,1.01,Large,Full,2,80
+Mortgage,Business,3.9,0.98,Large,Full,0,94
+Loan,Professional,5.24,3.68,Small,Web&Email,4,44
+Mortgage,Doctor,3.7,5.94,Small,Web,3,47
+Fund,Other,4.81,6.35,Small,Web,5,15
+CD,Doctor,3.78,4.9,Small,Full,4,53
+Mortgage,Doctor,12.8,5.33,Large,Web,1,92
+CD,Business,8.29,4.44,Medium,Full,0,86
+CD,Business,1.87,0.74,Small,None,0,69
+Loan,Other,8.46,1.14,Large,Web&Email,1,107
+Mortgage,Professional,4.37,0.62,Large,Full,0,98
+Loan,Other,4.32,4.97,Small,Full,4,46
